@@ -1,7 +1,7 @@
 {
-  "name": "alexa-nutrition",
+  "name": "food_nutrition",
   "version": "1.0.0",
-  "description": "Alexa Nutrition App",
+  "description": "Food nutrition look up skill",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
@@ -11,5 +11,8 @@
     "url": "."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.3.1"
+  }
 }

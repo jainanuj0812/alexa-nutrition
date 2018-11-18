@@ -64,6 +64,7 @@ def gen_slot_values(food_db):
     return unique
 
 with open('speechAssets/FOOD_ITEMS','w') as f:
-    f.write('\n'.join(gen_slot_values(food_db)))
+    #f.write('\n{\n "name": "' + gen_slot_values(food_db) + '"/n},')
+	json.dump(gen_slot_values(food_db), f)
     
 
